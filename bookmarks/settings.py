@@ -124,9 +124,9 @@ STATIC_URL = '/static/'
 # login and logout configurations
 LOGIN_REDIRECT_URL = 'accounts:dashboard'
 # url to direct the user to after a successfu login
-LOGIN_URL = 'login'
+LOGIN_URL = 'accounts:login'
 # direct users to this url when they are not authenticated and they want to view a page e.g 'dashboard.html'
 
-LOGOUT_URL = 'logout'
+LOGOUT_URL = 'accounts:logout'
 # directs user to this ur for logging out
 
